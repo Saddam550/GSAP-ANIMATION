@@ -1,0 +1,48 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .video-animation video {
+    width: 100%;
+  }
+
+  .Watermelon-description h1.Watermelon-title {
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+  .Watermelon-description h2 {
+    font-size: 25px;
+  }
+  .moving-text h1 {
+    margin: 0;
+  }
+  .moving-text .right-text {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .moving-text .left {
+    margin: -26px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .video-animation video {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .video-animation video {
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .video-animation video {
+    width: 100%;
+  }
+}
